@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(249, 239, 227);
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+.box {
+    background-color: #f4ecd9;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px 15px 30px 15px;
+    border-bottom: #cee7db thick groove;
+    background-image: repeating-linear-gradient(135deg, rgb(247, 242, 221)10%, rgb(232, 207, 165)20%, rgb(241, 241, 196)10%, rgb(202, 202, 164)20%);
+
+    box-shadow: 3px 3px 5px 1px rgb(210, 210, 216);
+    text-shadow: 2px 2px 1px rgb(229, 228, 190);
+
+}
+
+a:hover {
+    color: #7b7c6f;
+}
+
+p {
+    color: #676464;
+    text-align: justify;
+}
+
+h1 {
+    color: #ec9a28;
+}
+
+h2{
+    color: #f2c674;
+}

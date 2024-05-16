@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+    font-family: Arial, Helvetica,"微軟正黑體",sans-serif;
+}
+
+.box {
+    display: flex;
+    height: 1000px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.B1 {
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+a:hover{
+    color: #f28484;
+}

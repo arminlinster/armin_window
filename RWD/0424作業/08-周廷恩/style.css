@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(44, 196, 196);
+    font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+}
+
+.box {
+    display: block;
+    width: 1200px;
+    text-align: center;
+    background-color: rgb(141, 141, 244);
+    margin: auto;
+
+
+}
+
+a {
+    display: block;
+    background: linear-gradient(to right, #db4c4c 50px rgb(239, 239, 83) 50);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    text-decoration: 30px;
+    border-radius: 20px;
+    border: rgb(222, 85, 222) 3px solid;
+    background: linear-gradient(45deg, #435ee3 0%, #db54d2 45%, #efbd5f 100%);
+
+}
+
+a:hover {
+    background: coral;
+    border: palegoldenrod 5px double;
+    box-shadow: 2px 3px 3px 3px #db4c4c;
+}
+
+
+p {
+    text-align: justify;
+    padding: 20px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.aa {
+    line-height: 20px;
+
+
+}

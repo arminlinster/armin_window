@@ -1,0 +1,36 @@
+body {
+    font-family: Georgia, "標楷體", 'Times New Roman', Times, serif;
+}
+
+table {
+    background-color: #c3cddd75;
+    margin: 0 300px 0;
+}
+
+h1 {
+    text-justify: ;
+    font-style: italic;
+    color: rgb(42, 56, 165);
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+h2 {
+    color: rgb(123, 36, 21);
+    background-color: #fefeb092;
+    padding: 0 80px 0;
+    font-size: 40px;
+
+}
+
+h3 {
+    margin: 0 10px 0;
+}
+
+h4 {
+    margin: 0 30px 0;
+}
+
+p {
+    padding: 0 80px 0;
+}

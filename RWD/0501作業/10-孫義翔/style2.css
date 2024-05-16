@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+div {
+    background-color: #040404;
+    box-sizing: border-box;
+    height: 1000px;
+}
+
+h1 {
+    /* background-color: antiquewhite; */
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+ul {
+    /* background-color: rgba(158, 103, 209, 0.348); */
+    list-style: none;
+}
+
+a {
+    display: block;
+    /* background-color: rgb(180, 226, 174); */
+    float: right;
+    padding-top: 60px;
+    padding-right: 60px;
+    margin-right: 10px;   
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+a:hover{
+    color: #ed3535;
+}

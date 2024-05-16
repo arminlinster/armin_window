@@ -1,0 +1,46 @@
+.AAA h1 {
+    font-size: 28px;
+    color: #eaa10f;
+    text-align: center;
+}
+
+.AAA,
+.BBB,
+.CCC {
+    background-color: #f0dcc5;
+    padding: 10px 20px ;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9e8f0a;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+body{
+    font-family: Arial, Helvetica,"微軟正黑體", sans-serif;
+}
+
+a:link{
+    color: #0c93bb;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(130, 77, 144);
+}
+
+a:hover{
+    color: #b23636;
+}
+
+a:active{
+    color: #8f8989;
+}

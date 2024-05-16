@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(86, 85, 85);
+}
+
+div {
+    /* background-color: gainsboro; */
+    min-width: 790px;
+    height: 65px;
+    box-sizing: border-box;
+    /* margin: auto; */
+    position: relative;
+}
+
+
+h1 {
+    /* background-color: rgba(241, 127, 98, 0.514); */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+ul {
+    /* background-color: rgba(0, 0, 255, 0.175); */
+    position: absolute;
+    right: 70px;
+    top: 15px;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    /* background-color: rgba(0, 255, 255, 0.127); */
+    color: aliceblue;
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    color: red;
+}

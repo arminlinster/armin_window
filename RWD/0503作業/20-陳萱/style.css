@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 24px;
+   
+    background-color: #027d4e;
+}
+
+.header {
+    /* background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto; */
+
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 30px;
+    box-sizing: border-box; */
+    align-items: center;
+
+
+}
+
+h1 {
+    /* background-color: #ffa0a0b3; */
+
+    color: cornsilk;
+    font-size: 60px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 140px;
+    padding-top: 30px;
+
+}
+
+
+ul {
+    /* background-color: #8fffad80; */
+    display: flex;
+    /* align-items: center; */
+
+    font-family: "Artifika", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 140px;
+    padding-top: 30px;
+}
+
+li {
+    list-style: none;
+    vertical-align: middle;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    /* padding-top: 100px; */
+    margin-right: 6px;
+    background-color: bisque;
+}
+
+li a:hover {
+    background-color: aqua;
+   font-size: 1.1em;
+}
+
+/* ==================== */
+
+.Material-Symbols-Outlined {
+    content: "\e88a";
+    font-family: "Material Symbols Outlined";
+}
+
+@font-face {
+    font-family: "3Dumb";
+    src: url(./3Dumb.ttf);
+}
+
+.tt {
+    font-family: "3Dumb";
+}
+
+.box3 li a {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(203, 32, 255);
+    color: #FFF;
+    margin-bottom: 10px;
+    line-height: 60px;
+    text-decoration: none;
+    text-indent: 20px;
+}
+
+.box3 li a span {
+    font-family: Entypo;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box3 li a:hover {
+    background-color: aqua;
+}
+
+.box3 li a:hover span {
+    color: #333;
+}

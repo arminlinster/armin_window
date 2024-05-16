@@ -1,0 +1,25 @@
+body{
+background-color: blanchedalmond;
+}
+
+.box{
+background-color: rgb(192, 146, 19);
+width: 1200px;
+margin: auto;
+}
+
+a{
+    background-color: black;
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}

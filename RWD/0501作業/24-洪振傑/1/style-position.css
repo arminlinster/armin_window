@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Main {
+    background-color: black;
+    height: 100px;
+    position: relative;
+    min-width: 1000px;
+}
+
+.Logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.Buttom {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.Buttom ul {
+    list-style: none;
+}
+
+.Buttom li {
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}

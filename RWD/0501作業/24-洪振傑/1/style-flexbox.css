@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Main {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1000px;
+}
+/* div>div {
+    margin: 5px;
+    background-color: blue;
+    border: 5px red solid;
+} */
+
+.Logo {
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.Buttom {
+    padding-right: 100px;
+}
+
+.Buttom ul {
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+}
+
+.Buttom li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}

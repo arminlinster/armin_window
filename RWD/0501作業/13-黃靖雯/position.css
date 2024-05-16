@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div {
+    background-color: rgb(24, 24, 24);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+
+
+h1 {
+    position: absolute;
+    left: 110px;
+    top: 40px
+}
+
+
+ul {
+    list-style: none;
+
+
+}
+
+
+li {
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+
+
+a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    
+    
+    
+}
+h1{text-align: center;
+   
+}
+.DD{text-align: left;
+
+}
+h2{color: #938f8f;
+    background-color: #edeaea;
+    text-align: center;
+margin: 2px;
+    padding: 0px;}
+P{text-align: justify;
+    font-weight: bold;
+    font-weight:bold ;
+margin:8px}
+.aaa{color: #f0caca;background-color: #a49c9c; 
+
+}
+
+.bbb{background-color: #ffffff;  
+   
+
+}
+
+
+.ccc{background-color: #b085b4;
+
+}
+.ddd{color: #f0caca;
+    background-color: #a49c9c;
+
+}
+a:link {
+    color: #afa0a0;
+}
+
+a:visited {
+    color: #afa0a0;
+}
+
+A:hover {
+    color: rgb(244, 170, 43);background-color: #a49c9c
+}
+
+A:active {
+    color:rgb(244, 170, 43);
+}

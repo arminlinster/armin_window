@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(89, 85, 85);
+}
+
+div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h1 {
+    /* background-color: rgba(220, 55, 55, 0.537); */
+}
+
+
+ul {
+    display: flex;
+    /* border: red 2px solid; */
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    margin-right: 5px;
+    padding-right: 10px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: red;
+}

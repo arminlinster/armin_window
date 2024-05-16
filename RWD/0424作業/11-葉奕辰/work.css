@@ -1,0 +1,42 @@
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 20px;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    border: brown 5px solid;
+    border-radius: 50%;
+    background: linear-gradient(30deg, #a90329 20%, #e86969 80%);
+    box-shadow: 8px 6px 1px burlywood, 15px 13px 2px chocolate;
+    text-shadow: 2px 3px 2px #141101;
+}
+
+a:hover {
+    background: brown;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+body {
+    background: pink;
+}
+
+.box {
+    background: aliceblue;
+    width: 1200;
+    height: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}

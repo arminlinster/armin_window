@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+div {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+}
+
+
+
+h1 {
+    color: bisque;
+    margin-left: 100px;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+ul {
+    margin-right: 100px;
+    padding: 30px 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    margin:0 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff7070e7;
+}

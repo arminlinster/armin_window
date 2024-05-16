@@ -1,0 +1,64 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.box{
+background-color: rgba(10, 10, 10, 0.47);
+height: 120px;
+display: flex;
+
+}
+
+.box>.box1+ul{
+    width: calc(100%/2);
+}
+
+.box1{
+
+display: flex;
+width: calc(100%/2);
+}
+
+.ooo{
+margin-left: 100px;
+margin-top: 30px;
+
+}
+
+.xxx{
+width: 400px;
+margin-top: 30px;
+
+}
+
+
+ul{
+float: right;
+
+margin-top: 80px;
+}
+
+li{
+list-style: none;
+
+}
+
+
+li a{
+background-color: rgba(231, 81, 81, 0.537);
+display: block;
+width: 100px;
+height: 10px;
+float: left;
+padding-top: 20px;
+text-align: center;
+text-decoration: none ;
+line-height: 5px;
+margin-right: 10px;
+
+}
+
+li a:hover{
+background-color: cornsilk;
+}

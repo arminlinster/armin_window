@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+
+div {
+    background-color: #0f0f0f;
+    height: 1000px;
+    position: relative;
+}
+
+h1 {
+    /* background-color: aqua; */
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+ul {
+    /* background-color: rgba(164, 241, 136, 0.475); */
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+li {
+    /* background-color: #ef94ce; */
+    float: left;
+    list-style: none;
+}
+
+a {
+    /* background-color: #adf4c4; */
+    display: block;
+    color: #e8e7e4;
+    text-decoration-line: none;
+    width: 80px;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    text-align: center;
+}
+
+a:hover{
+    color: #e23232;
+}

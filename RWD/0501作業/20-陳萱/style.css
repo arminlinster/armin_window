@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: block;
+}
+
+div{
+    box-sizing: border-box;
+    background-color: #f9fafa;
+    color: #20303c;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+
+}
+
+h1{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    float: left;
+}
+ul{
+    position: absolute;
+    right: 30px;
+}
+
+li{
+    float: left;
+    list-style: none;
+}
+a{
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}

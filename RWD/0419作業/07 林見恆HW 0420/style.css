@@ -1,0 +1,30 @@
+body {
+
+    h1 {
+        font-size: 40px;
+        color: black;
+    }
+
+    h2 {
+        font-size: 52px;
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    h3 {
+        font-size: 40px;
+        color: blue;
+    }
+
+    h4 {
+        font-size: 40px;
+        color: blue;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+
+}

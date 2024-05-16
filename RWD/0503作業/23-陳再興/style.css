@@ -1,0 +1,99 @@
+@import url(./normalize.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "3dumb";
+    src: url(./3Dumb.ttf);
+    
+}
+
+
+.tt {
+    font-family: "3dumb";
+}
+@font-face {
+    font-family: entypo;
+    src: url(./Entypo-webfont.ttf);
+}
+.box3 li a {
+    display: block;
+    background-color: rgb(32, 25, 245);
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    line-height: 60px;
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+.box3 li a:hover {
+    background-color: #71192f;
+}
+
+.box3 li a span {
+    font-family: entypo;
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box3 li a:hover span {
+    color: yellow;
+}
+
+
+
+body {
+
+    background-color: rgba(241, 143, 143, 0.838);
+}
+
+div {
+    background-color: rgba(241, 200, 143, 0.838);
+    position: relative;
+    
+}
+
+.box1 {
+    background-color: rgba(241, 238, 143, 0.838);
+    width: 171px;
+    height: 49px;
+    position: absolute;
+}
+
+
+ul {
+    background-color: rgba(143, 241, 239, 0.838);
+}
+
+li {
+    background-color: rgba(143, 184, 241, 0.838);
+    float: right;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.box3 li a span {
+    font-family: entypo;
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box3 li a:hover span {
+    color: yellow;
+}
+

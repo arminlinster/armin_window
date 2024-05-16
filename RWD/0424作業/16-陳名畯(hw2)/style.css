@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+.box{
+    background-color: rgb(242, 226, 251);
+    width:1200px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+a{
+    height: 60px;
+    width: 100px;
+    display: block;
+    margin-left: 100px; 
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px #000;
+    color: white;
+    background-image: repeating-linear-gradient(45deg, green 10%, blueviolet 30%);
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;   
+}
+
+a:hover{
+    background-image: repeating-linear-gradient(45deg, rgb(74, 147, 226) 10%, rgb(246, 167, 193) 30%);
+}
+
+p{
+    text-align: justify;
+}
+
+.para1,.para2{
+    padding: 20px;
+}
+
+h1,h2{
+    text-align: center;
+    margin: auto;
+}

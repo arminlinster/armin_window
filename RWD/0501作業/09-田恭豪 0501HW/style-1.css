@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(86, 85, 85);
+}
+
+div {
+    /* background-color: gainsboro; */
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 780px;
+    
+}
+
+
+h1 {
+    /* background-color: blueviolet; */
+    float: left;
+}
+
+ul {
+    /* border: red 2px solid; */
+    float: right;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    /* background-color: rgba(0, 255, 255, 0.127); */
+    color: aliceblue;
+    display: block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+a:hover {
+    color: red;
+}

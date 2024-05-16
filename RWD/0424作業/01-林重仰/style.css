@@ -1,0 +1,37 @@
+.web{
+    width:1200px;
+    height:600px;
+    margin:auto;
+    padding: 5px;
+    text-decoration: double;
+    line-height:30px;
+    
+}
+
+h1{
+    width: 1200px;
+}
+
+a{
+    color: blue;
+    display: block;
+    width:300px;
+    height:30px;
+    border: #e1cd39 3px solid;
+    border-radius: 20px 10px/30px;
+    border-top: 5px solid rgb(198, 46, 12);
+    background: repeating-linear-gradient(135deg, rgb(235, 145, 37), rgb(189, 171, 28) 5px, rgb(215, 171, 10) 10px, rgb(173, 138, 25) 15px);
+}
+
+a:hover{
+    color: blue;
+}
+
+.word{
+    display: block;
+    color: black;
+    width:1200px;
+    text-align: justify;
+    margin:auto;
+    padding:5px;
+}

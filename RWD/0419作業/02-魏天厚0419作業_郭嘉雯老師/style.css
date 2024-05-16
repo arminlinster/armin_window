@@ -1,0 +1,56 @@
+ body {
+     background-color: #F6F5F2;
+     font-family: Arial, sans-serif;
+ }
+
+ .container {
+     max-width: 2400px;
+     margin: auto;
+     padding: 20px;
+ }
+
+ .container h2 {
+     color: #948979;
+ }
+
+ .container P {
+     color: #DFD0B8;
+ }
+
+ .gold-medalist1 {
+     background-color: #3C5B6F;
+     font-size: 32px;
+     padding: 30px;
+     margin: 10px;
+ }
+
+ .gold-medalist2 {
+     background-color: #3C5B6F;
+     font-size: 32px;
+     padding: 30px;
+     margin: 10px;
+ }
+
+ .image1 {
+     margin: 20px;
+     padding: 20px;
+ }
+
+ .image2 {
+     margin: 20px;
+     padding: 20px;
+ }
+
+ .article {
+     margin-left: 100px;
+     margin-right: 100px;
+     padding: 20px;
+ }
+
+ .article h2 {
+     font-size: 32px;
+ }
+
+ .article p {
+     font-size: 24px;
+ }

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, "微軟正黑體" sans-serif;
+    background: #DDDDDD;
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.button {}
+
+.bar {
+    display: inline-flex;
+}
+
+a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: #627254 5px solid;
+    color: #76885B;
+    background-color: #EEEEEE;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px;
+}
+
+a:hover {
+    font-size: 20px;
+    color: #EEEEEE;
+    background: #76885B;
+    border-bottom: #FFFFFF 5px solid;
+}
+
+.article{
+    font-size: 20px;
+}
+
+h3{
+    color: #627254;
+}

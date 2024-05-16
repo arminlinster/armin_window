@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(222, 137, 228, 0.844)
+}
+
+div {
+    background-color: bisque;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+a {
+    background: repeating-linear-gradient(325deg, rgba(212, 162, 239, 1) 3px, rgba(162, 157, 232, 1) 8px, rgba(168, 203, 247, 1) 13px, rgba(239, 227, 165, 1) 18px, rgba(234, 96, 96, 1) 23px);
+    color: blue;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 20px;
+    border: brown 3px solid;
+    box-shadow: 2px 2px 2px 2px black;
+    text-shadow: 3px 1px 1px rgba(145, 6, 3, 0.9);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+    background: linear-gradient(135deg, rgba(153, 152, 224, 1) 0%, rgba(11, 232, 154, 1) 20%, rgba(206, 224, 11, 1) 30%, rgba(237, 158, 11, 1) 54%, rgba(244, 244, 12, 1) 72%, rgba(188, 57, 9, 1) 100%);
+}

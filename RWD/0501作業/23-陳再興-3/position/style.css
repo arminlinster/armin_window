@@ -1,0 +1,50 @@
+@import url(./normalize.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: rgba(241, 143, 143, 0.838);
+}
+
+div {
+    background-color: rgba(241, 200, 143, 0.838);
+    position: relative;
+    
+}
+
+.b1 {
+    background-color: rgba(241, 238, 143, 0.838);
+    width: 171px;
+    height: 49px;
+    position: absolute;
+}
+
+.b2 {
+    background-color: rgba(194, 241, 143, 0.838);
+    position: absolute;
+}
+
+ul {
+    background-color: rgba(143, 241, 239, 0.838);
+}
+
+li {
+    background-color: rgba(143, 184, 241, 0.838);
+    float: right;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.b2 a {
+    background-color: rgba(84, 173, 251, 0.875);
+    display: block;
+
+}
+
+.b2 a:hover {
+    background-color: #ca64efe7;
+}

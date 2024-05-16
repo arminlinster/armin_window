@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(228, 237, 244);
+}
+
+h1{
+    color: rgb(250, 171, 69);
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h2{
+    color: rgb(124, 110, 205);
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+p{
+    color: rgb(82, 113, 166);
+    font-family: Arial, Helvetica, "微軟正黑體" ,sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+img{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #FFF;
+    background-repeat: repeat-x,no-repeat,no-repeat;
+    background-position: left top,right top,left bottom;
+    padding: 10px;
+}
+a{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px;
+}
+a:link{
+    color: rgb(255, 0, 0);
+}
+a:active{
+    color: rgb(86, 162, 255);
+}
+
+div{
+    text-align: center;    
+}

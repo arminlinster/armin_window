@@ -1,0 +1,35 @@
+.div0 {
+    
+    margin: auto 0;
+    color:blanchedalmond ;
+    width:1200px;
+    position: relative;
+    left: 20%;
+       
+}
+a {
+    display: block;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #F60;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(75, 11, 252);
+    text-decoration: none;
+    border: rgb(247, 192, 164) 1px solid;
+    border-radius: 30px;
+    background-image: repeating-linear-gradient(45deg, red 0%, orange 3%);
+    box-shadow: 2px 2px 5px 2px #555 inset;
+}
+
+a:hover {
+    color: rgb(253, 244, 5);
+    background-image: repeating-linear-gradient(45deg, rgb(249, 233, 10) 0%, rgb(103, 48, 240) 3%);
+    text-shadow: 2px 2px 0 #F60;
+}
+.div1 {
+    color:rgb(218, 250, 8);
+    background-color:blue;
+    width:600px;
+}

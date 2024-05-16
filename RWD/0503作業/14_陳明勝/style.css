@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #000;
+	width: 100%;
+	font-family: Arial, "微軟正黑體", Helvetica, sans-serif;
+}
+
+.box {
+	height: 160px;
+	box-sizing: border-box;
+}
+
+h1 {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 50px;
+	color: white;
+}
+
+span {
+	font-family: "Material Symbols Outlined";
+	margin-right: 5px;
+	;
+	vertical-align: middle;
+}
+
+ul {
+	float: right;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li {
+	flex-direction: row-reverse;
+	background-color: rgba(0, 0, 0, 0.838);
+	float: right;
+	list-style-type: none;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.icon {
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 1em;
+}
+
+.icon a {
+	float: right;
+
+	color: #FFF;
+	text-decoration: none;
+	width: 100px;
+	list-style-type: none;
+}
+
+.a {
+	background-color: rgba(84, 173, 251, 0.875);
+
+}
+
+.icon a:hover {
+	color: #f8f481;
+}

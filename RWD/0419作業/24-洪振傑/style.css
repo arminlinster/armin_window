@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif;
+    background-color: rgb(190, 198, 249);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h1.htag1,h1.htag2{
+    font-size: 20px;
+    text-align: left;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+    letter-spacing: 5px;
+    line-height: 20px;
+}
+
+.htag1 a{
+    font-size: 20px;
+}
+
+div{
+    text-align: center;
+}
+
+div.title{
+    background-color: rgb(180, 167, 193);
+}

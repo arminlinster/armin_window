@@ -1,0 +1,21 @@
+a:visited{color:blue}
+
+.headline{
+    background-color: rgba(177, 121, 81, 0.512);
+    line-height: 100px;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2{
+    color:rgb(135, 58, 58);
+    font-size: 30px;
+    font-weight: bolder;
+
+}

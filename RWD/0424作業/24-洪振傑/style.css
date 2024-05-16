@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(115, 115, 237);
+}
+div.Main{
+    background-color: bisque;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+a{
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 60px / 15px;
+
+    background: repeating-linear-gradient(30deg, #becbd18e 0%, #2aafed78 10%);
+
+    text-shadow: 1px 1px 2px #000;
+    box-shadow: 2px 2px 5px 2px whitesmoke inset, 4px 4px 5px 2px gray;
+}
+a:hover{
+    background-color: azure;
+}
+h1{
+    padding:10px;
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif;
+}

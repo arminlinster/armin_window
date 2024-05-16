@@ -1,0 +1,41 @@
+body {
+    background-color: #311847;
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-weight: lighter;
+
+}
+
+h1 {}
+
+h2 {}
+
+p {}
+
+.box {
+    background-color: aliceblue;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.bn {
+    width: 1200px;
+}
+
+a {
+    background-color: #311847;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 60px;
+    line-height: 40px;
+    margin: 5px;
+    box-shadow: 2px 5px 3px #1b0d29;
+}
+
+a:hover {
+    background-color: #e09f7d;
+}

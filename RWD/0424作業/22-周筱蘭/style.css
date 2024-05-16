@@ -1,0 +1,50 @@
+a {
+    background-color: rgb(179, 199, 250);
+    display: block;
+    width: 200px;
+    height: 60pz;
+    text-align: center;
+    color: rgb(96, 57, 44);
+    text-decoration: none;
+    line-height: 60px;
+
+
+    border-radius: 40px 20px/20px;
+    /* background-image:linear-gradient(to top, red, yellow, blue) */
+
+
+    /* background-image:linear-gradient(45deg, 
+    #e4c0ea 40%, #dce57b 50%, #b2e8de 100%); */
+
+    /*background-image: repeating-linear-gradient(45deg, red 0%, red 5%,blue 6%, blue 15px);*/
+    /*畫出斜紋*/
+
+    background: repeating-linear-gradient(45deg, red 0%, red 5%, blue 6%, blue 15px);
+
+    box-shadow: 2px 5px 3px 3px black inset;
+
+
+}
+
+a:hover {
+    /*background-color: #26673f;*/
+    color: #fff;
+    background: #26673f;
+    text-shadow: 1px 1px 2px yellow;
+}
+
+h1 {
+    background-color: red 2px solid;
+    border-bottom: black thick solid;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    /* background-color: yellow; */
+    width:1200px;
+    margin:auto;
+    padding:20px;
+}

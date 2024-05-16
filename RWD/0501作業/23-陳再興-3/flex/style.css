@@ -1,0 +1,57 @@
+@import url(./normalize.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    background-color: rgb(0, 0, 0);
+    display:flex ;
+    justify-content: space-around;
+}
+
+.b1 {
+    background-color: rgb(0, 0, 0);
+    width: 171px;
+    height: 49px;
+    
+}
+
+.b2 {
+    background-color: rgb(0, 0, 0);
+    
+
+}
+
+ul {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+li {
+    background-color: rgb(248, 216, 216);
+    float: right;
+    list-style-type: none;
+    padding-left: 40px;
+    
+}
+
+.b2 a {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+}
+
+.b2 a:link {
+    background-color: #ffffff;
+}
+
+.b2 a:hover {
+    background-color: #ffffffe7;
+}

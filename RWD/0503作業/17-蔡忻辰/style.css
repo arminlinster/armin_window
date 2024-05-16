@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(255, 178, 122, 0.932);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 150px 0 160px;
+}
+
+.box1 {
+    font-size: x-large;
+}
+
+.parisienne-regular {
+    display: flex;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    background-color: rgba(169, 191, 252, 0.972);
+    display: block;
+    text-decoration: none;
+    margin-right: 10px;
+    color: brown;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.favorite::before {
+    font-family: "Material Icons";
+    content: "favorite_border";
+    vertical-align: middle;
+}
+
+.star::before {
+    font-family: "Material Icons";
+    content: "star_border";
+    vertical-align: middle;
+}
+
+.upload::before {
+    font-family: "Material Symbols Outlined";
+    content: "upload_2";
+    vertical-align: middle;
+}
+
+.setting::before {
+    font-family: "Material Symbols Outlined";
+    content: "settings";
+    vertical-align: middle;
+}
+
+span {
+    margin-right: 5px;
+    font-size: x-large;
+}
+
+li a:hover .favorite {
+    color: black;
+}
+
+li a:hover .star {
+    color: black;
+}
+
+li a:hover .upload {
+    color: black;
+}
+
+li a:hover .setting {
+    color: black;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.r a:hover {
+    background-color: red;
+}
+
+.y a:hover {
+    background-color: yellow;
+}
+
+.b a:hover {
+    background-color: rgba(82, 166, 249, 0.978);
+}
+
+.w a:hover {
+    background-color: white;
+}

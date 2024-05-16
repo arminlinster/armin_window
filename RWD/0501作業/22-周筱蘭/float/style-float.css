@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    padding: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    float: left
+}
+
+ul {
+    float: right;
+    line-height: 60px;
+    
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    /*該 li 以行內方式顯示 */
+    margin-right: 20px;
+    /* 調整 li 之間的間距 */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+li a:hover {
+    background-color: #ff7070e7;
+}

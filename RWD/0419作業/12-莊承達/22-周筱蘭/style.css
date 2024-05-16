@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(14, 18, 27);
+    font-size: 50px;
+    text-align: left;
+
+}
+
+h2 {
+    color: rgb(214, 12, 12);
+    font-size: 30px;
+    text-align: left;
+}
+
+/*h3 {
+    font-size: 30px;
+}*/
+
+p {
+    /*   letter-spacing: 1px;*/
+    font-weight: bold;
+    line-height: 30px;
+    padding: 5px 100px 5px;
+    text-align: justify
+}
+
+body {
+    margin: 0px;
+    background-color: #ecebeb;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+}

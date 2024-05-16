@@ -1,0 +1,57 @@
+.box{
+    width:600px;
+    margin:center;
+background-color: #c9ef71;
+/* margin: centor top; */
+}
+
+a {
+    display: block;
+    /* background: linear-gradient(to bottom, rgba(254, 252, 234, 1) 0%, rg(241, 218, 54, 1) 100%; */
+
+    background-color: #85bc0f;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    text-;
+    /* text-decoration:none; */
+
+    line-height: 60px;
+    padding: 10px 5px 0px 10px;
+
+    border-top: #370fbc 30px;
+    
+    /* border:solid 5px red; */
+    /* border-radius: 15px; */
+    border-radius: 10px 0 30px;
+    border-radius: 40px/10px;
+    border-radius: 40px 10px / 20px;
+    border-radius: 40px;
+
+    background:repeating-linear-gradient(30deg, #ffb5b5 0px, #ffb5b5 10px, #fdffb5 11px, #fdffb5 15px);
+
+    box-shadow:2px 2px 14px #782323 inset, 2px 2px 14px #782323 inset;
+    text-shaw:2px 2px rgb(119, 255, 0)
+
+    /* background: linear-gradient(to bottom, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+
+    background-image:linear-gradient(to right, red,yellow,blue );
+    background-image:linear-gradient( -45deg, red 40%,yellow 30%, blue 80%);
+    background-image: linear-gradient(45deg, red 40%, blue 80%);
+    background-image: linear-gradient(45deg, red 40%, yellow 30%, blue 80%);
+    background-image: linear-gradient(90deg, red 30%, yellow 50%, blue 90%); */
+
+    
+
+    /* background-image: repeating-linear-gradient(90deg, red 0, blue 20px);
+    background-image: repeating-linear-gradient(90deg, red 20, blue 20px) */
+}
+
+
+a:hover {
+    background: #84357a;
+    color:yellow
+    /* background-color: #bc0fbc;
+    color: purple; */
+}

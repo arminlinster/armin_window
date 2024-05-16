@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    background-color: rgb(253, 208, 208);
+    height: 100px;
+    min-width: 1000px;
+}
+
+.Logo{
+    /* background-color: rgba(179, 137, 83, 0.452); */
+    float: left;
+}
+.img{
+    float: left;
+    background-image: url(./logo2.png);
+    box-sizing: border-box;
+    width: 53px;
+    height: 53px;
+}
+.Logotext{
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+.Logotext>p{
+    box-sizing: border-box;
+}
+
+.Button{
+    /* background-color: #f40b0b7e; */
+    float: right;
+    padding: 20px 30px 0 0;
+    box-sizing: border-box;
+}
+ul{
+    
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}

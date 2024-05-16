@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121314;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: cornsilk;
+    font-size: 60px;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 140px;
+    padding-top: 30px;
+    /* background-color: yellow; */
+}
+
+.big{
+    font-size: 60px;
+}
+
+ul {
+    display: flex;
+    font-family: "Artifika", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 140px;
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+a:hover {
+    color: coral;
+    font-size: 18px;
+}
+
+H2 {
+    color: bisque;
+    font-family: "微軟正黑體";
+    text-align: left;
+    padding-left: 140px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    /* background-color: blue; */
+}
+
+hr{
+    border-top: 2px bisque;
+}
+
+.gg{
+    height: 1097px;
+    background-repeat: no-repeat;
+    background-image: url(./1.jpg);
+    border-top: 2px solid bisque;
+    border-bottom: 2px solid bisque;
+}
+
+.hh{
+    height: 10px;
+}
+
+span{
+    vertical-align: middle;
+    padding-right: 5px;
+}

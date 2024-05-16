@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.wrapper {
+    background-color: hsl(0, 0%, 56%);
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: rgba(133, 133, 133, 0.653);
+}
+
+.box2 {
+    background-color: rgba(20, 20, 20, 0.607);
+
+}
+
+.abc {
+    font-family: Entypo;
+    src: url(./Entypo-webfont.ttf);
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
+}
+
+.box ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: heydings;
+    src: url(./heydings_icons.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./RalewayDots-Regular.ttf);
+}
+
+
+.box2 span {
+    content: "A";
+    font-family: "heydings";
+    vertical-align: baseline;
+}
+
+
+.box2 li a {
+    display: block;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 5px;
+    line-height: 60px;
+    text-decoration: none;
+    text-indent: 50px;
+    content: "A";
+    font-family: "Raleway";
+    font-size: 18px;
+    color: #ffffff;
+
+
+}
+
+.box2 li a:hover span {
+    color: rgb(255, 174, 0);
+}
+
+.box2 a:hover{
+    color: #f6f200;
+}

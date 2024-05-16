@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    
+}
+.box2{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(41, 197, 202);
+    height: 200px;
+    align-items: center;
+}
+.box3{
+    
+}
+.box3 ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+.box3 li a{
+    display: block;
+    height: 80px;
+    width: 150px;
+    background-color: purple;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 30px;
+    text-decoration: none; 
+    font-size: larger;
+}
+
+@font-face {
+    font-family: "Arizonia Regular";
+    src: url(./Arizonia-Regular.ttf);
+}
+
+h1{
+    font-family: "Arizonia Regular";
+    color: white;
+    font-size: 5em;
+    margin-left: 80px;
+}
+span.material-symbols-outlined{   
+    font-size: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+a:hover span{
+    color: rgb(51, 255, 0);
+}

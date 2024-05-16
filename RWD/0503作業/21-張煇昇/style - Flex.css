@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    background-color: #2e0202;
+    display: flex;
+    /* background-image: url(./banner.png); */
+    /* width: 1200px;  */
+    height: 300px; 
+    /* padding: 10px 60px 0 60px; */
+    /* position: relative; */
+} 
+
+h1 {
+    background-color: #bb6898;
+    /* float: left; */
+}
+
+ul{
+    background-color: #5d3504;
+    /* float: right; */
+    padding-top: 30px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+li{
+    float: left;
+    margin: 10px;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Entypo';
+    src: url(./Entypo.otf);
+}
+
+li a span {
+    font-family: Entypo;
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a{
+    margin-right: 10px;
+    display:block;
+    width:100px;
+    color: aliceblue;
+    text-decoration: none;
+    /* height: 100px; *//*不寫就是以文字高為高*/
+    background-color: #16055c;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding-top: 15px;
+    /* background-image: url(./icon1_1.png); */
+}
+
+/* img寫在CSS才有辦法用hover,寫在html就沒辦法做這樣變化(滑鼠滑過) */
+
+a:hover{
+    color: #bb6898;
+    /* background-image: url(./icon1_2.png); */
+}
+
+
+/* .icon1 a{background-image: url(./icon1_1.png)}
+.icon1 a:hover{background-image: url(./icon1_2.png)} */
+
+
+/* ################## */
+/* div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    position: relative;
+
+}
+
+h1 {
+    background-color: #40abe0;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    float: left;
+}
+
+ul {
+    background-color: #93e040;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+}
+
+li {
+    float: left;
+    margin: 10px;
+    float: right;
+} */

@@ -1,0 +1,64 @@
+div{
+    background-image: repeating-linear-gradient(30deg,
+        #858b8f8e 0%,
+        #2aafed78 10%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px 20px;
+}
+span{
+    content: "home";
+}
+.Main h1{
+    color: white;
+    font-family: Jaro;
+}
+span{
+    font-family: "Material Symbols Outlined";
+    margin-right: 5px;;
+    vertical-align: middle;
+}
+
+.Main ul{
+    display: flex;
+}
+
+.Main ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.Main ul li a{
+    display: block;
+    background-color: #7b1010;
+    color: white;
+    text-shadow: 1px 1px 5px #f5dede;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Dancing;
+    
+}
+
+.Main ul li a:hover{
+    color: black;
+}
+.Main ul li a:hover span{
+    color:rgb(118, 120, 130);
+    font-size: 28px;
+}
+
+@font-face{
+    font-family: Jaro;
+    src: url(./Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+@font-face{
+    font-family: Dancing;
+    src: url(./DancingScript-VariableFont_wght.ttf);
+}

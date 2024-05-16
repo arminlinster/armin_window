@@ -1,0 +1,26 @@
+h1{
+    color: #039;
+    font-size: 50px;
+    text-align: center;
+    
+}
+h2{
+    color: #c30;
+    font-size: 30px;
+    background-color: #A8CD9F;
+    ; text-align: center;
+}
+p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 30px;
+   
+}
+
+body {
+    background-color: #E2F4C5;
+    font-family: Arial, sans-serif;
+}
+.aaa {
+    background-color: #A8CD9F;
+}

@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+div {
+    /* background-color: rgba(165, 131, 234, 0.785); */
+    /* box-sizing: border-box; */
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    justify-content: space-between;
+    /* 水平-靠左右對齊平均分配 */
+    box-sizing: border-box;
+    padding: 50px 80px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+h1 {
+    /* background-color: rgba(86, 35, 18, 0.547); */
+    padding-top: 10px;
+    padding-right: 60%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+
+ul {
+    /* background-color: rgba(173, 185, 12, 0.547); */
+    display: flex;
+
+}
+
+
+li {
+    list-style: none;
+    /* 右邊點點不見 */
+}
+
+a {
+    background-color: rgba(205, 102, 246, 0.547);
+    display: block;
+    /* 設a為盒子 */
+    width: 100px;
+    height: 30px;
+    margin-right: 6px;
+    padding-top: 10px;
+    /* 盒內距:單邊-上 */
+    text-decoration: none;
+    text-align: center;
+    /* 文字置中對齊 */
+}
+
+a:hover {
+    background-color: rgba(150, 193, 236, 0.973);
+    color: rgb(237, 237, 188);
+}
+
+.f a {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    /* 設a為盒子 */
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 8px;
+    /* 盒內距:單邊-上 */
+    text-decoration: none;
+
+
+}
+
+.f a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(244, 90, 19);
+}
+
+
+
+

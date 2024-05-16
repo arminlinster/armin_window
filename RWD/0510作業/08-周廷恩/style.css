@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./body_bg.gif);
+    font-family: Arial, Helvetica, sans-serif,"微軟正黑體";
+}
+.container{
+    background-image: url(./container_bg.jpg);
+    width: 1200px;
+    margin: auto;
+}
+
+.top{
+    background-color: #f0c440;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    transform: perspective(300px) rotateY(0deg);
+    transition: all 1s;
+}
+.logo:hover{
+    transform: perspective(300px) rotateY(360deg);
+
+}
+.login ul{
+    background-color: brown;
+    
+}
+.login li{
+    list-style: none;
+    float: left;
+}
+.login li a{
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 20px 10px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: rgb(243, 60, 10);
+    
+}
+.login li a:hover{
+    color: darkred;
+    transform: skewX(-20deg);
+}
+
+.header{}
+.header image{}
+
+.nav{}
+.nav ul{
+    width: 200px;
+    float: left;
+}
+.nav li{
+    list-style: none;
+}
+
+.nav a::before{
+    content:"Favorite";
+    font-family: "Material Symbols Outlined";
+    vertical-align: middle;
+    margin: 10px;
+
+}
+
+.nav li a{
+    color:white;
+    display: block;
+    height: 40px;
+    width: 160px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-style:none none dashed none;
+
+}
+.nav li a:hover{
+    transform: scale(1.25);
+}
+
+.content{
+    width: 960px;
+    float: right;
+    margin: 20px;
+}
+.content h1{
+    background-image: url(./title_bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    font-size: 24px;
+    text-indent: 40px;
+    
+}
+.content h2{
+    background-image:linear-gradient(to right,#752201 20px,#a17305 0px);
+    color: rgb(4, 226, 181);
+    border-radius: 5px;
+    width: 380px;
+    height: 32px;
+    font-size: 20px;
+    text-indent: 30px;
+    box-shadow: 2px 2px 3px black;
+    
+        
+}
+.content p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.footer{
+    background-color: rgb(61, 56, 56);
+    clear: both;
+    padding: 10px;
+
+}
+.footer h3{
+    color:white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+
+
+
