@@ -4,7 +4,7 @@ class Window(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Hello Tkinter")
-        label = tk.Label(self, text="Hello World!")
+        label = tk.Label(self, text= names)
         label.pack(fill=tk.BOTH, expand=1, padx=100, pady=50)
 
 def get_names() -> list[str]:
@@ -19,4 +19,6 @@ if __name__ == '__main__':
     print(len(names))
     #if __name__ == "__main__":
     window = Window()
+    window.title("my first pro")
+    #window.tk.Label(self, text="Hello World!")
     window.mainloop()
