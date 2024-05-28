@@ -7,16 +7,17 @@ class Window(tk.Tk):
         super().__init__(**kwargs)
         self.title("pack1")
         self.geometry('500x300')
-        
+        '''
         btn1:ttk.Button = ttk.Button(self,text="Top")
         btn1.pack()
         btn2:ttk.Button = ttk.Button(self,text="Middle")
         btn2.pack()
         btn3:ttk.Button = ttk.Button(self,text="Bottom")
         btn3.pack()
-        btn4:ttk.Button = ttk.Button(self,text="btn01").pack()
-        btn5:ttk.Button = ttk.Button(self,text="btn02").pack()
-        btn6:ttk.Button = ttk.Button(self,text="btn03").pack()
+        '''
+        btn4:ttk.Button = ttk.Button(self,text="btn01").pack(side='left')
+        btn5:ttk.Button = ttk.Button(self,text="btn02").pack(side='left')
+        btn6:ttk.Button = ttk.Button(self,text="btn03").pack(side='left')
         label:ttk.LabelFrame = ttk.Label(self,
                                          text=names2,
                                          font=("arial",20,"bold"),
