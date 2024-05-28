@@ -14,6 +14,7 @@ def get_names() -> list[str]:
     names:list[str]  = content.split()
     return names    
 
-names:list[str] = get_names()
-print(names)
-print(len(names))
+if __name__ == '__main__':
+    names:list[str] = get_names()
+    print(names)
+    print(len(names))
