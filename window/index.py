@@ -1,11 +1,18 @@
 import tkinter as tk
+from tkinter import ttk
 
 class Window(tk.Tk):
     def __init__(self,title:str,**kwargs):
         super().__init__(**kwargs)
         self.title(title)
-        label = tk.Label(self, text= names2)
-        label.pack(fill=tk.BOTH, expand=1, padx=100, pady=50)
+        label:ttk.LabelFrame = ttk.Label(self,
+                                         text=names2,
+                                         font=("arial",20,"bold"),
+                                         foreground ='#f00',
+                                         background = '#0ff')
+        label.pack(padx=100, pady=50)
+        #label = tk.Label(self, text= names2)
+        #label.pack(fill=tk.BOTH, expand=1, padx=100, pady=50)
 
 def get_names() -> list[str]:
     with open('names.txt', encoding='utf-8') as file1:
