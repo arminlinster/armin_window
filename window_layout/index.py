@@ -6,6 +6,7 @@ class Window(tk.Tk):
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
         self.title("pack1")
+        self.geometry('500x300')
         
         btn1:ttk.Button = ttk.Button(self,text="Top")
         btn1.pack()
@@ -13,12 +14,15 @@ class Window(tk.Tk):
         btn2.pack()
         btn3:ttk.Button = ttk.Button(self,text="Bottom")
         btn3.pack()
+        btn4:ttk.Button = ttk.Button(self,text="btn01").pack()
+        btn5:ttk.Button = ttk.Button(self,text="btn02").pack()
+        btn6:ttk.Button = ttk.Button(self,text="btn03").pack()
         label:ttk.LabelFrame = ttk.Label(self,
                                          text=names2,
                                          font=("arial",20,"bold"),
                                          foreground ='#f00',
                                          background = '#0ff')
-        label.pack(padx=100, pady=50)
+        label.pack(padx=10, pady=5)
 
 if __name__ == '__main__':
     window:Window = Window()
