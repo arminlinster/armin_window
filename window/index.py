@@ -1,10 +1,10 @@
 import tkinter as tk
 
 class Window(tk.Tk):
-    def __init__(self):
-        super().__init__()
-        self.title("Hello Tkinter")
-        label = tk.Label(self, text= names)
+    def __init__(self,title:str,**kwargs):
+        super().__init__(**kwargs)
+        self.title(title)
+        label = tk.Label(self, text= names2)
         label.pack(fill=tk.BOTH, expand=1, padx=100, pady=50)
 
 def get_names() -> list[str]:
@@ -17,8 +17,10 @@ if __name__ == '__main__':
     names:list[str] = get_names()
     print(names)
     print(len(names))
+    names1="這是第一支GUI程式"
+    names2 = "這是第一支GUI程式的內容"
     #if __name__ == "__main__":
-    window = Window()
+    window:Window = Window(title=names1)
     #window.title("my first pro")
     #window.tk.Label(self, text="Hello World!")
     window.mainloop()
