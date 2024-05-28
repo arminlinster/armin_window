@@ -19,6 +19,6 @@ if __name__ == '__main__':
     print(len(names))
     #if __name__ == "__main__":
     window = Window()
-    window.title("my first pro")
+    #window.title("my first pro")
     #window.tk.Label(self, text="Hello World!")
     window.mainloop()
