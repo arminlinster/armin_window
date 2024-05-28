@@ -7,11 +7,11 @@ class Window(tk.Tk):
         self.title("pack1")
         self.geometry('300x200')
         
-        ttk.Button(self,text="Left").pack(fill='x')  
+        ttk.Button(self,text="Left").pack(fill='both',expand=1)  
 
-        ttk.Button(self,text="This is the Center Button").pack(fill='x')  
+        ttk.Button(self,text="This is the Center Button").pack(fill='both',expand=1)  
 
-        ttk.Button(self,text="Right").pack(fill='x')
+        ttk.Button(self,text="Right").pack(fill='both',expand=1)
         
 
 
