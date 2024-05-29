@@ -6,7 +6,7 @@ class Window(tk.Tk):
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
         self.title("pack1")
-        self.geometry('500x300')
+        self.geometry('700x300')
         '''
         btn1:ttk.Button = ttk.Button(self,text="Top")
         btn1.pack()
