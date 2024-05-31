@@ -11,7 +11,7 @@ class Window(tk.Tk):
         Button(fm, text='TOP',background='#ff0').pack(side=TOP,expand=YES, anchor=W,fill=X)
         Button(fm, text='CENTER',background='#BBB').pack(side=TOP,expand=YES, anchor=W,fill=X)
         Button(fm, text='Bottom',background='#088').pack(side=TOP,expand=YES, anchor=W,fill=X)
-        fm.pack(side=LEFT, fill=BOTH, expand=YES)
+        fm.pack(side=BOTTOM, fill=BOTH, expand=YES)
 
         fm1 = Frame(self)
         Button(fm1, text='LEFT',background='#888').pack(side=LEFT)
@@ -21,4 +21,4 @@ class Window(tk.Tk):
 
 if __name__ == "__main__":
     window = Window()
-    window.mainloop()
+    window.mainloop() 

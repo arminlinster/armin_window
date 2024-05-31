@@ -8,14 +8,13 @@ class Window(tk.Tk):
         self.title("林正銘_0528作業")
 
         fm = Frame(self)
-        Button(fm, text='TOP').pack(side=TOP,expand=YES, anchor=W,fill=X)
-        Button(fm, text='CENTER').pack(side=TOP,expand=YES, anchor=W,fill=X)
-        Button(fm, text='Bottom').pack(side=TOP,expand=YES, anchor=W,fill=X)
+        Button(fm, text='TOP').pack(side=TOP,expand=YES, fill=X)
+        Button(fm, text='CENTER').pack(side=TOP,expand=YES, fill=X)
+        Button(fm, text='Bottom').pack(side=TOP,expand=YES, fill=X)
         Button(fm, text='LEFT',background='#ff0').pack(side=LEFT)
         Button(fm, text='This is Center Button',background='#0f0').pack(side=LEFT)
         Button(fm, text='Right',background='#00f').pack(side=LEFT)
-        fm.pack(fill=BOTH, expand=YES)
-
+        fm.pack(fill=BOTH, expand=YES) 
 if __name__ == "__main__":
     window = Window()
     window.mainloop()
