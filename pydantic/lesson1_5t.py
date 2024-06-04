@@ -5,17 +5,26 @@ from ttkthemes import ThemedTk
 import tools
 
 class Window(ThemedTk):
-    def __init__(self,**kwargs): 
+    def __init__(self,**kwargs):
         super().__init__(**kwargs)
-        self.title("AQI顯示")
-        self.option_add('*font',('微軟正黑體',25,'bold'))
-        ttk.Button(self, text="Quit", command=self.destroy).pack()
-        title_frame = ttk.Frame(self)
+        self.title("全台空氣品質指標(AQI)")
+        #self.option_add("*Font","微軟正黑體 40")
+        #定義style的名稱
         style = ttk.Style()
         style.configure('Top.TFrame', background ='#FF0')
-        title_frame = ttk.Frame(self,style='Top.TFrame')
-        ttk.Label(title_frame,text="全台AQI空品指標").pack()
-        title_frame.pack(padx=100,pady=50)
+        style.configure('Top.TFrame')
+        style.configure('Top.TLabel',font=('Helvetica',25,'bold'))
+
+        title_frame = ttk.Frame(self,style='Top.TFrame',borderwidth=2,relief='groove')
+        ttk.Label(title_frame,text='全台空氣品質指標(AQI)',style='Top.TLabel').pack(expand=True,fill='y')
+        title_frame.pack(ipadx=100,ipady=30,padx=10,pady=30)
+
+        func_frame = ttk.Frame(self,style='Top.TFrame',borderwidth=3,relief='groove')
+        ttk.Button(func_frame,text="AQI品質最好的五個").pack(side='left',expand=True)
+        ttk.Button(func_frame,text="AQI品質最差的五個").pack(side='left',expand=True)
+        ttk.Button(func_frame,text="PM2.5品質最好的五個").pack(side='left',expand=True)
+        ttk.Button(func_frame,text="PM2.5品質最差的五個").pack(side='left',expand=True)
+        func_frame.pack(ipadx=100,ipady=30,padx=10,pady=30)
 
 
 def main():
@@ -28,7 +37,7 @@ def main():
         data:list[dict] = tools.get_data(all_data)
         pprint(data)
     '''
-    window = Window(theme="blue")
+    window = Window(theme="arc")
     window.mainloop()
     
 
