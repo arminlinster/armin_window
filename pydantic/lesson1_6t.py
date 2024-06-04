@@ -14,7 +14,7 @@ class Window(ThemedTk):
         style = ttk.Style()
         style.configure('Top.TFrame', background ='#FF0')
         title_frame = ttk.Frame(self,style='Top.TFrame')
-        ttk.Label(title_frame,text="全台AQI空品指標").pack()
+        ttk.Label(title_frame,text="全台AQI空品指標").pack(expand=True,fill='y')
         title_frame.pack(padx=100,pady=50)
 
 
