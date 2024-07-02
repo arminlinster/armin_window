@@ -1,9 +1,12 @@
 import psycopg2  
 import ubikedata
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def main():
     # 建立連線
-    conn = psycopg2.connect("postgresql://tvdi_2ddg_user:Fya25QbuhhKZxhnj53WkHm3vsIsDVd35@dpg-cpsct1t6l47c73e3h8e0-a.singapore-postgres.render.com/tvdi_2ddg")
+    conn = psycopg2.connect(os.environ['POSTGRESQL_TOKEN'])
 
     with conn: #with conn會自動commit()
         # 建立cursor, CREATE TABLE
