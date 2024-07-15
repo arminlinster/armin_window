@@ -4,7 +4,8 @@ from tkinter import ttk
 from ttkthemes import ThemedTk
 import tools1
 from tkinter import messagebox
-from tkinter.simpledialog import Dialog
+from tkinter.simpledialog import 
+import math
 all_data1:dict[any]
 
 class Window(ThemedTk):
@@ -69,7 +70,18 @@ def main():
         #data:list[dict] = tools1.get_data(all_data)
         #pprint(data)
         print("data")
-    
+for dat in all_data:
+    if abs(dat['lat'] - 25.115000) < 0.00150 and abs(dat['lng'] - 121.537500) < 0.00150:
+        print(dat['lat'] - 25.115000)
+        print(dat['lng'] - 121.537500) 
+        print(dat['lat'])
+        print(dat['lng']) 
+        print(dat['sna'])
+        print(dat['sarea'])
+        print(dat['ar'])
+        print(dat['act'])
+        print(dat['rent_bikes'])
+        print(dat['retuen_bikes'])
     window = Window(theme="arc")
     window.mainloop()
     

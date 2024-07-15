@@ -5,7 +5,7 @@ from ttkthemes import ThemedTk
 import tools1
 from tkinter import messagebox
 from tkinter.simpledialog import Dialog
-all_data1:dict[any]
+from datetime import datetime
 
 class Window(ThemedTk):
     def __init__(self,**kwargs):
@@ -25,11 +25,34 @@ class Window(ThemedTk):
         ttk.Button(func_frame,text="AQI品質最好的5個",command=self.click1).pack(side='left',expand=True)
         ttk.Button(func_frame,text="AQI品質最差的5個",command=self.click2).pack(side='left',expand=True)
         ttk.Button(func_frame,text="pm2.5品質最好的5個",command=self.click3).pack(side='left',expand=True)
-        ttk.Button(func_frame,text="職能學院附近的ubike點",command=self.click4).pack(side='left',expand=True)
+        ttk.Button(func_frame,text="pm2.5品質最好的5個",command=self.click4).pack(side='left',expand=True)
         func_frame.pack(ipadx=100,ipady=30,padx=10,pady=10)
+    
+    def download_parse_data(self)->list[dict] | None:
+        try:
+            all_data:dict[any] = tools1.download_json()            
+        except Exception as error:
+            messagebox.showwarning("出現錯誤","出現小錯誤,請稍後再試!")
+            return
+        else:        
+            data:list[dict] = tools1.get_data(all_data)
+            return data
+                  
 
     def click1(self):
-        messagebox.showinfo("information","Infomative message")
+        if (tools1.AQI.aqi_records is None) or (tools1.AQI.update_time is None):
+            tools1.AQI.aqi_records = self.download_parse_data()
+            tools1.AQI.update_time = datetime.now()
+        elif((datetime.now()-tools1.AQI.update_time).seconds >= 60 * 60):
+            tools1.AQI.aqi_records = self.download_parse_data()
+            tools1.AQI.update_time = datetime.now()       
+
+        data:list[dict] = tools1.AQI.aqi_records
+        sorted_data:list[dict] = sorted(data,key=lambda value:value['aqi'])
+        best_aqi:list[dict] = sorted_data[:5]
+        print(best_aqi)
+              
+            
     
     def click2(self):
         messagebox.showerror("Error","Error message")
@@ -41,35 +64,19 @@ class Window(ThemedTk):
         ShowInfo(parent=self,title="這是Dialog")
 
 class ShowInfo(Dialog):
-    global buf
     def __init__(self,**kwargs):
         super().__init__(**kwargs)
     
     def body(self, master):
         text = tk.Text(self,height=8,font=('Helvetica',25),width=40)
         text.pack(padx=10,pady=10)
-        #sprintf(buf,"A = %d\n , B= %s\n",all_data[-1]['sna'],all_data[-1]['sarea'])
-        text.insert(tk.INSERT,buf)
+        text.insert(tk.INSERT,"測試的文字")
         text.config(state='disabled')
         return None
 
-buf = ''
+
 
 def main():
-    global buf
-    try:
-        all_data:dict[any] = tools1.download_json()
-        print(all_data[-1])
-        #sprintf(buf,"A = %d\n , B= %s\n",all_data[-1]['sna'],all_data[-1]['sarea'])
-        buf += "SNA = %s\n , SAREA = %s\n, total = %d\n" % (all_data[-1]['sna'], all_data[-1]['sarea'], all_data[-1]['total'])
-        all_data1 = all_data
-    except Exception as error:
-        print(error)
-    else:        
-        #data:list[dict] = tools1.get_data(all_data)
-        #pprint(data)
-        print("data")
-    
     window = Window(theme="arc")
     window.mainloop()
     
