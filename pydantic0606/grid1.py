@@ -6,7 +6,11 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
 
+<<<<<<< HEAD
+        self.geometry("240x100")
+=======
         self.geometry("320x160")
+>>>>>>> 0cdb1669e6daadf57ef7264882799d20d7dadc5c
         self.title('Login')
         self.resizable(0, 0)
 
