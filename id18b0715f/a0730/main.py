@@ -5,7 +5,6 @@ from dashboard.board1 import app1
 from dashboard.board2 import app2
 import data
 import dashboard
-#from auth import auth_blueprint
 from auth.main import auth_blueprint
 
 app = Flask(__name__)
@@ -34,7 +33,9 @@ def index1():
     return render_template('index1.html.jinja',areas=areas,show_area=selected_area,detail_snaes=detail_snaes)    
 
     
-
+@app.errorhandler(404)
+def page_not_found(error):
+     return render_template('error.html.jinja'), 404
 
 if __name__ == "__main__":
     run_simple("localhost", 8080, application,use_debugger=True,use_reloader=True)
