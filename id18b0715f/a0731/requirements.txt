@@ -1,0 +1,7 @@
+psycopg2-binary
+python-dotenv
+flask
+gunicorn
+pandas
+dash
+Flask-WTF
