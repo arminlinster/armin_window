@@ -22,7 +22,7 @@ app2.layout = html.Div([
     Input('areas','value')
 )
 def selected_area(areas_value):
-    content = data.get_snaOfArea(area=areas_value)
+    content = data.get_snaOfArea()
     df = pd.DataFrame(content)
     df.columns = ['站點名稱','總數','可借','可還','日期','狀態']
     return df.to_dict('records')
